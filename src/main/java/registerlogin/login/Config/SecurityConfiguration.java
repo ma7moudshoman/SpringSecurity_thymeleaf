@@ -14,7 +14,7 @@ import registerlogin.login.Service.UserService;
 
 @Configuration
 @EnableWebSecurity
- public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
+ public  class  SecurityConfiguration extends WebSecurityConfigurerAdapter{
 @Autowired
     private  UserService userService;
     @Bean
